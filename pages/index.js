@@ -32,7 +32,7 @@ export default function Home() {
                 />
                 </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://drive.google.com/file/d/1fZEVjhez2_K4eV36uRseuLAFIJtTe6Ty/view?usp=sharing" target="_blank">
+                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://drive.google.com/file/d/1fZEVjhez2_K4eV36uRseuLAFIJtTe6Ty/view?usp=sharing" target="_blank" rel="noreferrer">
                   Resume
                 </a>
               </li>
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
 
             <div className="relative basis-1/3 flex-1">
-              <a href="https://github.com/jschaefmn/e-commerce-back-end" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50">
+              <a href="https://github.com/jschaefmn/e-commerce-back-end" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
                 <Image src={image1} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">E-Commerce Backend</h3>
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="#" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50"> 
+              <a href="#" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer"> 
                 <Image src={image2} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">Workout Tracker</h3>
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="https://serene-hamlet-02089.herokuapp.com/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50">
+              <a href="https://serene-hamlet-02089.herokuapp.com/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
                 <Image src={image3} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">Note Taker App</h3>
@@ -102,7 +102,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="https://jschaefmn.github.io/password-generator/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50">
+              <a href="https://jschaefmn.github.io/password-generator/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
               <Image src={image4} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
               <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                 <h3 className="text-3xl">Text</h3>
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="https://group-project-dos.herokuapp.com/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50">
+              <a href="https://group-project-dos.herokuapp.com/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
                 <Image src={image5} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">Suds on Sale</h3>
@@ -121,7 +121,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="https://jschaefmn.github.io/weather-dashboard/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50">
+              <a href="https://jschaefmn.github.io/weather-dashboard/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
                 <Image src={image6} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">Weather Dashboard</h3>
