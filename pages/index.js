@@ -45,9 +45,9 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl max-w-xl mx-auto">Full-Stack Web developer looking to offer my services. Always open to learning and challenging myself everyday. My skillsets include, but not limited to: HTML5,CSS3, JavaScript, React, MongoDB, SQL, MySQL, Express, and GIT</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-            <a href="https://twitter.com/MrCoolJakey" target="_blank"><AiFillTwitterCircle /></a>
-            <a href="https://www.linkedin.com/in/jacobschaefbauer/" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://github.com/jschaefmn" target="_blank"><AiFillGithub /></a>
+            <a href="https://twitter.com/MrCoolJakey" target="_blank" rel="noreferrer"><AiFillTwitterCircle /></a>
+            <a href="https://www.linkedin.com/in/jacobschaefbauer/" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://github.com/jschaefmn" rel="noreferrer" target="_blank"><AiFillGithub /></a>
           </div>
           <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
             <Image src={headshot} layout="fill" objectFit="cover"></Image>
