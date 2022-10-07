@@ -82,7 +82,7 @@ export default function Home() {
             </div>
 
             <div className="relative basis-1/3 flex-1">
-              <a href="#" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer"> 
+              <a href="https://workout-tracker-app2.herokuapp.com/" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer" target="_blank"> 
                 <Image src={image2} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
                 <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
                   <h3 className="text-3xl">Workout Tracker</h3>
@@ -105,7 +105,8 @@ export default function Home() {
               <a href="https://jschaefmn.github.io/password-generator/" target="_blank" className="transition ease-in-out delay-80 hover:scale-110 hover:opacity-50" rel="noreferrer">
               <Image src={image4} className="rounded-3xl object-cover" width={"100%"} height={"45"} layout="responsive"/>
               <div className="absolute w-full py-2.5 bottom-0 inset-x-0 bg-white opacity-70 text-black text-xs text-center leading-4 rounded-b-3xl">
-                <h3 className="text-3xl">Text</h3>
+                <h3 className="text-3xl">Password Generator</h3>
+                <p className="text-lg">- JavaScript</p>
               </div>
               </a>
             </div>
