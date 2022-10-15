@@ -4,7 +4,7 @@
 ## Description
 This is a single page application build with React and next.js.
 
-If you want to view the deployed application, click <a href="https://desolate-fjord-39755.herokuapp.com/" target="_blank">here</a>
+If you want to view the deployed application, click <a href="https://jake-schaefbauer-portfolio.herokuapp.com/" target="_blank">here</a>
 
 ## Installation
 In order to be able to use my portfolio on your local machine, you must have Node.js installed.
